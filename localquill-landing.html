@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>LocalQuill — AI Writing, Fully Private</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon">✍️</div>
+    LocalQuill
+    <span class="nav-badge">LOCAL AI</span>
+  </a>
+  <div class="nav-links">
+    <a href="#features">Features</a>
+    <a href="#setup">Setup</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#pricing" class="nav-cta">Get Lifetime $19</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+
+  <div class="announce-pill">
+    <div class="announce-dot"></div>
+    <span>Early Bird</span> — Only 10 spots at $19
+  </div>
+
+  <h1>AI Writing That Runs<br><em>On Your Machine.</em></h1>
+
+  <p class="hero-sub">
+    Right-click any text on any page. Rewrite, shorten, apply for jobs, write cold DMs — powered by your local Ollama models. Zero cloud. Zero subscription. Zero data leaving your device.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#pricing" class="btn-primary">
+      ⚡ Get Lifetime Access — $19
+    </a>
+    <a href="#demo" class="btn-ghost">Watch Demo</a>
+  </div>
+
+  <p class="hero-proof">
+    Works with <span>Gemma, Llama, Mistral</span> and any model on Ollama ·
+    <span>Chrome, Edge, Brave</span> · Windows, Mac, Linux
+  </p>
+</section>
+
+<!-- VIDEO -->
+<section class="video-section" id="demo">
+  <div class="video-wrap reveal">
+    <div class="video-label">▶ DEMO</div>
+    <iframe
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="LocalQuill Demo"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <div class="ticker-item"><strong>100% Local</strong> <span class="ticker-sep">·</span> No API keys needed</div>
+    <div class="ticker-item"><strong>Zero Cloud</strong> <span class="ticker-sep">·</span> Your text never leaves</div>
+    <div class="ticker-item"><strong>Any Model</strong> <span class="ticker-sep">·</span> Gemma, Llama, Mistral</div>
+    <div class="ticker-item"><strong>Right-click Magic</strong> <span class="ticker-sep">·</span> Works on any website</div>
+    <div class="ticker-item"><strong>Resume Upload</strong> <span class="ticker-sep">·</span> Job apply in one click</div>
+    <div class="ticker-item"><strong>Voice Input</strong> <span class="ticker-sep">·</span> Speak, don't type</div>
+    <div class="ticker-item"><strong>Screen Snip</strong> <span class="ticker-sep">·</span> Explain any image</div>
+    <div class="ticker-item"><strong>Lifetime Deal</strong> <span class="ticker-sep">·</span> Pay once, own forever</div>
+    <!-- duplicate for seamless loop -->
+    <div class="ticker-item"><strong>100% Local</strong> <span class="ticker-sep">·</span> No API keys needed</div>
+    <div class="ticker-item"><strong>Zero Cloud</strong> <span class="ticker-sep">·</span> Your text never leaves</div>
+    <div class="ticker-item"><strong>Any Model</strong> <span class="ticker-sep">·</span> Gemma, Llama, Mistral</div>
+    <div class="ticker-item"><strong>Right-click Magic</strong> <span class="ticker-sep">·</span> Works on any website</div>
+    <div class="ticker-item"><strong>Resume Upload</strong> <span class="ticker-sep">·</span> Job apply in one click</div>
+    <div class="ticker-item"><strong>Voice Input</strong> <span class="ticker-sep">·</span> Speak, don't type</div>
+    <div class="ticker-item"><strong>Screen Snip</strong> <span class="ticker-sep">·</span> Explain any image</div>
+    <div class="ticker-item"><strong>Lifetime Deal</strong> <span class="ticker-sep">·</span> Pay once, own forever</div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section class="features reveal" id="features">
+  <span class="section-label">Features</span>
+  <h2 class="section-title">Everything you need.<br>Nothing you don't.</h2>
+  <p class="section-sub">Built for people who write every day — developers, freelancers, job seekers, creators.</p>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <span class="feature-icon">✂️</span>
+      <div class="feature-title">Screen Snip</div>
+      <p class="feature-desc">Drag to select any area on any page. Screenshot is captured, cropped, and sent to AI instantly. Explain diagrams, error messages, UI screenshots.</p>
+      <span class="feature-tag">NEW</span>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🎯</span>
+      <div class="feature-title">Job Apply</div>
+      <p class="feature-desc">Upload your resume once. LocalQuill extracts your skills and experience. Paste any job posting → get a personalized application email in seconds.</p>
+      <span class="feature-tag">POPULAR</span>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🎙️</span>
+      <div class="feature-title">Voice Input</div>
+      <p class="feature-desc">Click the mic button and speak. Your words are transcribed live using Chrome's built-in speech recognition. No external service, works offline.</p>
+      <span class="feature-tag">ZERO DEPS</span>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🔒</span>
+      <div class="feature-title">100% Private</div>
+      <p class="feature-desc">All AI runs on your machine via Ollama. Your text, resume, and documents never touch a server. Perfect for sensitive client work and NDAs.</p>
+      <span class="feature-tag">LOCAL ONLY</span>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🌐</span>
+      <div class="feature-title">Context Aware</div>
+      <p class="feature-desc">Automatically detects if you're on X, LinkedIn, Gmail, or GitHub and adjusts tone accordingly. Writes like the platform expects.</p>
+      <span class="feature-tag">SMART</span>
+    </div>
+    <div class="feature-card">
+      <span class="feature-icon">🧬</span>
+      <div class="feature-title">Your Persona</div>
+      <p class="feature-desc">Paste 2–3 examples of your writing. LocalQuill learns your voice and matches it on every rewrite — even without fine-tuning any model.</p>
+      <span class="feature-tag">PERSONALIZED</span>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY SECTION -->
+<section class="privacy-section reveal">
+  <div class="privacy-card">
+    <div>
+      <span class="section-label">Privacy First</span>
+      <h2 class="section-title" style="font-size:40px;">Your data stays<br><em>on your machine.</em></h2>
+      <p style="color:var(--text2);font-size:15px;line-height:1.8;margin-top:20px;">
+        Every other AI writing tool sends your text to OpenAI, Anthropic, or some cloud API. LocalQuill runs on Ollama — a local AI runtime on your own computer. Nothing leaves. Ever.
+      </p>
+      <p style="color:var(--text2);font-size:15px;line-height:1.8;margin-top:12px;">
+        Lawyers, freelancers with NDAs, developers working on internal projects — LocalQuill is built for you.
+      </p>
+    </div>
+    <div class="privacy-visual">
+      <div class="pv-line"><div class="pv-dot green"></div><span class="pv-text-green">Your text → Ollama (localhost) → Result</span></div>
+      <br>
+      <div class="pv-line"><div class="pv-dot red"></div><span class="pv-text-red">Your text → OpenAI servers → Logged</span></div>
+      <div class="pv-line"><div class="pv-dot red"></div><span class="pv-text-red">Your text → Google servers → Stored</span></div>
+      <div class="pv-line"><div class="pv-dot red"></div><span class="pv-text-red">Your text → Some startup → Who knows</span></div>
+      <br>
+      <div class="pv-line"><div class="pv-dot grey"></div><span class="pv-text">No internet required after setup</span></div>
+      <div class="pv-line"><div class="pv-dot grey"></div><span class="pv-text">Works with any Ollama model</span></div>
+      <div class="pv-line"><div class="pv-dot grey"></div><span class="pv-text">Zero usage costs forever</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTIONS -->
+<section class="actions-section reveal">
+  <span class="section-label">20+ Actions</span>
+  <h2 class="section-title">Every writing task.<br>One right-click.</h2>
+  <p class="section-sub" style="margin-bottom:40px;">Highlight any text on any website and pick what you need.</p>
+
+  <div class="actions-showcase">
+    <div class="action-card"><span class="action-emoji">🔁</span><div class="action-name">Rewrite</div><div class="action-desc">Fresh words, same meaning</div></div>
+    <div class="action-card"><span class="action-emoji">✂️</span><div class="action-name">Shorten</div><div class="action-desc">Cut the fluff instantly</div></div>
+    <div class="action-card"><span class="action-emoji">📝</span><div class="action-name">Expand</div><div class="action-desc">Add detail and context</div></div>
+    <div class="action-card"><span class="action-emoji">💼</span><div class="action-name">Professional</div><div class="action-desc">Formal but not stiff</div></div>
+    <div class="action-card"><span class="action-emoji">😎</span><div class="action-name">Casual</div><div class="action-desc">Human and approachable</div></div>
+    <div class="action-card"><span class="action-emoji">🔥</span><div class="action-name">Add Hook</div><div class="action-desc">5 punchy openers</div></div>
+    <div class="action-card"><span class="action-emoji">🎯</span><div class="action-name">Job Apply</div><div class="action-desc">Uses your resume data</div></div>
+    <div class="action-card"><span class="action-emoji">💌</span><div class="action-name">Cold DM</div><div class="action-desc">Personalized outreach</div></div>
+    <div class="action-card"><span class="action-emoji">🧵</span><div class="action-name">X Thread</div><div class="action-desc">Thread-ready format</div></div>
+    <div class="action-card"><span class="action-emoji">💼</span><div class="action-name">LinkedIn Post</div><div class="action-desc">Platform-optimized</div></div>
+    <div class="action-card"><span class="action-emoji">📋</span><div class="action-name">Summarize</div><div class="action-desc">Bullet points fast</div></div>
+    <div class="action-card"><span class="action-emoji">💡</span><div class="action-name">Explain Simply</div><div class="action-desc">No jargon, clear</div></div>
+    <div class="action-card"><span class="action-emoji">🔔</span><div class="action-name">Follow Up</div><div class="action-desc">Polite but firm</div></div>
+    <div class="action-card"><span class="action-emoji">📧</span><div class="action-name">Write Email</div><div class="action-desc">From rough notes</div></div>
+    <div class="action-card"><span class="action-emoji">🌐</span><div class="action-name">Translate</div><div class="action-desc">English ↔ Hindi</div></div>
+    <div class="action-card"><span class="action-emoji">✏️</span><div class="action-name">Custom</div><div class="action-desc">Any instruction you want</div></div>
+  </div>
+</section>
+
+<!-- SETUP -->
+<section class="setup-section reveal" id="setup">
+  <span class="section-label">Setup</span>
+  <h2 class="section-title">Running in<br>4 steps.</h2>
+  <p class="section-sub" style="margin-bottom:40px;">One-time setup. Works on Windows, Mac, and Linux.</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-content">
+        <div class="step-title">Install Ollama</div>
+        <p class="step-desc">Download and install Ollama from ollama.com. It's the local AI runtime that powers everything. Free and open source.</p>
+        <span class="step-code">ollama.com/download</span>
+      </div>
+      <div class="step-badge">5 min</div>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-content">
+        <div class="step-title">Pull a model</div>
+        <p class="step-desc">Download a model like Gemma 3 or Llama 3. Run this once in your terminal. The model downloads to your machine.</p>
+        <span class="step-code">ollama pull gemma3</span>
+      </div>
+      <div class="step-badge">~3 GB</div>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-content">
+        <div class="step-title">Start Ollama with CORS enabled</div>
+        <p class="step-desc">Run Ollama with this one-time environment variable so the extension can connect. Set it permanently in System Environment Variables.</p>
+        <span class="step-code">OLLAMA_ORIGINS=* ollama serve</span>
+      </div>
+      <div class="step-badge">Once</div>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-content">
+        <div class="step-title">Install LocalQuill</div>
+        <p class="step-desc">After purchase you'll get a Chrome Web Store link. Click Add to Chrome. Done. Open any page, highlight text, and start writing.</p>
+        <span class="step-code">chrome.google.com/webstore/...</span>
+      </div>
+      <div class="step-badge">1 click</div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="comparison-section reveal">
+  <span class="section-label">Comparison</span>
+  <h2 class="section-title">Why LocalQuill?</h2>
+  <p class="section-sub" style="margin-bottom:40px;">Compare the real cost of alternatives over 2 years.</p>
+
+  <div class="comparison-table">
+    <div class="ct-header">
+      <div class="ct-cell header">Feature</div>
+      <div class="ct-cell header highlight">LocalQuill ✍️</div>
+      <div class="ct-cell header">Grammarly</div>
+      <div class="ct-cell header">Monica AI</div>
+      <div class="ct-cell header">ChatGPT Plus</div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">Runs locally / private</div>
+      <div class="ct-cell highlight"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">Works on any website</div>
+      <div class="ct-cell highlight"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">Job apply with resume</div>
+      <div class="ct-cell highlight"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">Screen snip to AI</div>
+      <div class="ct-cell highlight"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">Voice input</div>
+      <div class="ct-cell highlight"><span class="check">✓</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+      <div class="ct-cell"><span class="cross">✗</span></div>
+    </div>
+    <div class="ct-row">
+      <div class="ct-cell feature">2 year total cost</div>
+      <div class="ct-cell highlight ct-price accent">$19 once</div>
+      <div class="ct-cell ct-price">$300</div>
+      <div class="ct-cell ct-price">$240</div>
+      <div class="ct-cell ct-price">$480</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section reveal" id="pricing">
+  <span class="section-label" style="display:block;text-align:center;">Pricing</span>
+  <h2 class="section-title" style="margin-bottom:48px;">One price.<br><em>Forever yours.</em></h2>
+
+  <div class="price-card">
+    <div class="price-badge">⚠️ Only 10 spots at this price</div>
+    <div class="price-amount"><sup>$</sup>19</div>
+    <div class="price-period">one-time payment · <span>no subscription ever</span></div>
+
+    <div class="price-ladder">
+      <div class="ladder-item">$9 ✓</div>
+      <div class="ladder-arrow">→</div>
+      <div class="ladder-item current">$19 NOW</div>
+      <div class="ladder-arrow">→</div>
+      <div class="ladder-item">$29</div>
+      <div class="ladder-arrow">→</div>
+      <div class="ladder-item">$49</div>
+    </div>
+
+    <ul class="price-features">
+      <li>Chrome Extension (Windows, Mac, Linux)</li>
+      <li>Works with ANY local Ollama model</li>
+      <li>20+ writing actions via right-click</li>
+      <li>Resume upload + Job Apply</li>
+      <li>Screen snip to AI</li>
+      <li>Voice input</li>
+      <li>Custom persona matching</li>
+      <li>Context awareness (X, LinkedIn, Gmail...)</li>
+      <li>Lifetime updates included</li>
+      <li>Commercial license included</li>
+    </ul>
+
+    <a href="#" class="price-cta">Get Lifetime Access — $19 →</a>
+    <p class="price-note">🔒 Secure payment · Instant access · 7-day refund if it doesn't work</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section reveal" id="faq">
+  <span class="section-label">FAQ</span>
+  <h2 class="section-title" style="margin-bottom:48px;">Questions.</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">Do I need to pay for an AI API? <span class="faq-icon">+</span></div>
+    <div class="faq-a">No. LocalQuill uses Ollama which runs AI models locally on your machine. There are zero API costs, zero usage limits. You download the model once and it runs forever for free.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What models does it work with? <span class="faq-icon">+</span></div>
+    <div class="faq-a">Any model you have installed in Ollama — Gemma 3, Gemma 4, Llama 3, Mistral, Phi, Qwen, and more. LocalQuill auto-detects all your installed models and lets you pick.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Does it work on Windows? <span class="faq-icon">+</span></div>
+    <div class="faq-a">Yes. LocalQuill is a Chrome extension so it works on any OS — Windows, Mac, or Linux — as long as you have Chrome, Edge, or Brave installed.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is my data really private? <span class="faq-icon">+</span></div>
+    <div class="faq-a">100%. Your text never leaves your machine. The extension communicates only with Ollama running at localhost. No analytics, no logging, no cloud processing.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What if I need help with setup? <span class="faq-icon">+</span></div>
+    <div class="faq-a">Every purchase includes a step-by-step setup guide. If you get stuck, just email support and we'll help you get it running.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Will the price increase? <span class="faq-icon">+</span></div>
+    <div class="faq-a">Yes. The price started at $9 and goes up with each batch of sales. Current price is $19. Next price is $29. Early buyers are rewarded — once you buy, you own it forever at your price.</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <div class="nav-logo-icon" style="width:28px;height:28px;font-size:14px;">✍️</div>
+    LocalQuill
+  </div>
+  <div class="footer-links">
+    <a href="#">Privacy</a>
+    <a href="#">Support</a>
+    <a href="#">Changelog</a>
+  </div>
+  <div class="footer-right">© 2026 LocalQuill · Built with ❤️ and Ollama</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
